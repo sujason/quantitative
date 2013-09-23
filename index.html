@@ -4,69 +4,112 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Quantitative by sujason</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
-        <h1 class="header">Quantitative</h1>
-        <p class="header">Quantitative MRI. Curiosity saved the cat.</p>
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/sujason/quantitative/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/sujason/quantitative/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/sujason/quantitative">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/sujason">sujason</a></p>
-
-
+        <h1>Quantitative</h1>
+        <p>Python loves Quantitative MRI.</p>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/sujason/quantitative" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/sujason/quantitative/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/sujason/quantitative/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h2>
+<a name="welcome-to-quantitative" class="anchor" href="#welcome-to-quantitative"><span class="octicon octicon-link"></span></a>Welcome to Quantitative</h2>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>This is the future home of a project that seeks to leverage the vast array of tools available in Python to create an open source framework for the reconstruction and analysis of quantitative MRI methods.  Users are free to use the stock implementations as well as to build their own mapping technique with the framework and automatically inherit the other features.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="features-in-progress-include" class="anchor" href="#features-in-progress-include"><span class="octicon octicon-link"></span></a>Features in progress include:</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<ul>
+<li>Automated multi-subject reconstruction of maps</li>
+<li>Image support for DICOM, NIFTI, etc. via <a href="http://nipy.sourceforge.net/nibabel/">nibabel</a>
+</li>
+<li>Parallelized computation at the voxel, slice, or subject level</li>
+<li>Resume from crash</li>
+<li>GPU accelerated Stochastic Region of Contraction solver</li>
+<li>Calculation of the Cramer-Rao Lower Bound via <a href="https://github.com/LowinData/pyautodiff">automatic differentiation</a>
+</li>
+</ul><h3>
+<a name="implementations-in-progress" class="anchor" href="#implementations-in-progress"><span class="octicon octicon-link"></span></a>Implementations in progress:</h3>
+
+<ul>
+<li>DESPOT1 (Deoni et al.)</li>
+<li>DESPOT2-FM (Deoni et al.)</li>
+<li>mcDESPOT (Deoni et al.)</li>
+<li>MPRAGE T1 mapping (Liu et al.)</li>
+</ul><h2>
+<a name="getting-started-with-python" class="anchor" href="#getting-started-with-python"><span class="octicon octicon-link"></span></a>Getting Started with Python</h2>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The best way to install Python for scientific computing is with a pre-made environment or bundle of packages.  There are many competitors but two of the major players are: <a href="https://www.enthought.com/products/canopy/">Enthought Canopy</a> (formerly Enthought Python Distribution) and <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.  These are both free.  Paid or academic licenses offer access to accelerated libraries or better support.  They help to assemble the most widely used open source community projects including NumPy, Matplotlib, SciPy, and IPython in a one-click install.</p>
+
+<p>New packages can be installed from the command-line with:</p>
+
+<ul>
+<li>easy_install </li>
+<li>pip install </li>
+</ul><p>Admin privileges are usually required.</p>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="learning" class="anchor" href="#learning"><span class="octicon octicon-link"></span></a>Learning</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>There is of course a heavy inertia to learning a new programming language.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<ul>
+<li><a href="http://www.diveintopython.net">Dive Into Python</a></li>
+<li>
+<a href="http://www.pyvideo.org">PyVideo</a> - an amazing resource that catalogs training sessions and talks from past PyCon events.  These typically cost thousands of dollars to attend in person.</li>
+<li>SciPy tutorials</li>
+<li>IPython tutorials</li>
+<li><a href="http://www.python.org/dev/peps/pep-0008/">PEP-8 Programming Style</a></li>
+</ul><h3>
+<a name="programming" class="anchor" href="#programming"><span class="octicon octicon-link"></span></a>Programming</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<ul>
+<li>PyCharm is an excellent IDE with good tab-completion and debugger tools</li>
+<li>Spyder attempts to mimic MATLAB</li>
+<li>IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run "ipython notebook --pylab=inline" from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib</li>
+<li>Never use "python" alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you "ls" or "cd" around through directories.  Run "ipython qtconsole --pylab=inline" from the shell.</li>
+</ul><h2>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h2>
+
+<p><a href="sujason@stanford.edu">Jason Su</a>, Stanford University (<a href="https://github.com/sujason" class="user-mention">@sujason</a>)</p>
       </section>
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <p>Project maintained by <a href="https://github.com/sujason">sujason</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+    
   </body>
 </html>
