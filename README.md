@@ -19,8 +19,8 @@ This is the future home of a project that seeks to leverage the vast array of to
 The best way to install Python for scientific computing is with a pre-made environment or bundle of packages.  There are many competitors but two of the major players are: [Enthought Canopy](https://www.enthought.com/products/canopy/) (formerly Enthought Python Distribution) and [Anaconda](https://store.continuum.io/cshop/anaconda/).  These are both free.  Paid or academic licenses offer access to accelerated libraries or better support.  They help to assemble the most widely used open source community projects including NumPy, Matplotlib, SciPy, and IPython in a one-click install.
 
 Most major Python packages are available from the central package index, [PyPI](https://pypi.python.org/pypi).  New packages can be pulled and installed from PyPI with the shell commands:
-* `$ easy_install <package name>`
-* `$ pip install <package name>`
+* `easy_install <package name>`
+* `pip install <package name>`
 
 Admin privileges are usually required.
 
@@ -36,8 +36,8 @@ There is of course a heavy inertia to learning a new programming language, but I
 ### Programming
 * PyCharm is an excellent IDE with good tab-completion and debugger tools
 * Spyder attempts to mimic MATLAB
-* IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `$ ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
-* Never use "python" alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you `ls` or `cd` around through directories.  Run `$ ipython qtconsole --pylab=inline` from the shell.
+* IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
+* Never use `python` alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you `ls` or `cd` around through directories.  Run `ipython qtconsole --pylab=inline` from the shell.
 
 ## Authors and Contributors
 [Jason Su](sujason@stanford.edu), Stanford University (@sujason)
