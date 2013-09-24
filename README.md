@@ -1,6 +1,6 @@
 ## Welcome to Quantitative
 This is the future home of a project that seeks to leverage the vast array of tools available in Python to create an open source framework for the reconstruction and analysis of quantitative MRI methods.  Users are free to use it as is or even to implement own mapping techniques and automatically inherit the framework's other features.
-### Features in progress include:
+### Features in progress:
 * Automated multi-subject reconstruction of maps
 * Image support for DICOM, NIFTI, etc. via [nibabel](http://nipy.sourceforge.net/nibabel/)
 * Parallelized computation at the voxel, slice, or subject level
