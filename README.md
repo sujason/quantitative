@@ -41,4 +41,5 @@ There is of course a heavy inertia to learning a new programming language, but I
 
 ## Authors and Contributors
 [Jason Su](sujason@stanford.edu), Stanford University (@sujason)
-You!
+
+and You!
