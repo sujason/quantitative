@@ -36,8 +36,8 @@ There is of course a heavy inertia to learning a new programming language, but I
 ### Programming
 * PyCharm is an excellent IDE with good tab-completion and debugger tools
 * Spyder attempts to mimic MATLAB
-* IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run "ipython notebook --pylab=inline" from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
-* Never use "python" alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you "ls" or "cd" around through directories.  Run "ipython qtconsole --pylab=inline" from the shell.
+* IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `$ ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
+* Never use "python" alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you `ls` or `cd` around through directories.  Run `$ ipython qtconsole --pylab=inline` from the shell.
 
 ## Authors and Contributors
 [Jason Su](sujason@stanford.edu), Stanford University (@sujason)
