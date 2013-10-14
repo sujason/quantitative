@@ -28,15 +28,16 @@ Admin privileges are usually required.
 ### Learning
 There is of course a heavy inertia to learning a new programming language, but I believe the effort is well worth it especially if you'd like to move beyond Matlab.  I found the following resources immensely helpful:
 * [Dive Into Python](http://www.diveintopython.net)
+* [Python Scientific Lecture Notes](http://scipy-lectures.github.io/index.html)
 * [PyVideo](http://www.pyvideo.org) - an amazing resource that catalogs training sessions and talks from past PyCon events.  These typically cost thousands of dollars to attend in person.
-* SciPy tutorials
-* IPython tutorials
+* [IPython introduction](http://pycon-2012-notes.readthedocs.org/en/latest/ipython.html)
+* [Matplotlib gallery](http://www.loria.fr/~rougier/coding/gallery/)
 * [PEP-8 Programming Style](http://www.python.org/dev/peps/pep-0008/)
 
 ### Programming
-* PyCharm is an excellent IDE with good tab-completion and debugger tools
-* Spyder attempts to mimic MATLAB
-* IPython Notebook emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
+* [PyCharm](http://www.jetbrains.com/pycharm/) is an excellent IDE with good tab-completion and debugger tools
+* [Spyder](http://code.google.com/p/spyderlib/) mimics a MATLAB-like development enviroment.
+* [IPython Notebook](http://ipython.org/) emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
 * Never use `python` alone, use IPython and IPython QTConsole. They support tab completion and provide many shell commands to let you `ls` or `cd` around through directories.  Run `ipython qtconsole --pylab=inline` from the shell.
 
 ## Authors and Contributors
