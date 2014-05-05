@@ -37,8 +37,7 @@ There is of course a heavy inertia to learning a new programming language, but I
 * [PEP-8 Programming Style](http://www.python.org/dev/peps/pep-0008/) is a useful set of guidelines for Python coding style.  Python provides a lot of freedom as a language and as programmers we must use exercise it responsibly.  By following these conventions we improve code clarity and give a base understanding that everyone starts from.
 
 ### Programming
-* [SublimeText](http://www.sublimetext.com/) is a multi-platform text editor that has highlighting for many programming languages including Python.  It also happens to be written in Python.  Version 3 is the way to go
- * Be sure to grab [Package Control](https://sublime.wbond.net/) to install plugins, like the excellent on-the-fly code-checking tool, [Anaconda](https://sublime.wbond.net/packages/Anaconda) (no relation to the previously mentioned environment).
+* [SublimeText](http://www.sublimetext.com/) is a multi-platform text editor that has highlighting for many programming languages including Python.  It also happens to be written in Python.  Version 3 is the way to go.  Be sure to grab [Package Control](https://sublime.wbond.net/) to install plugins, like the excellent on-the-fly code-checking tool, [Anaconda](https://sublime.wbond.net/packages/Anaconda) (no relation to the previously mentioned environment).
 * [PyCharm](http://www.jetbrains.com/pycharm/) is an excellent IDE with good tab-completion and debugger tools
 * [Spyder](http://code.google.com/p/spyderlib/) mimics a MATLAB-like development enviroment.
 * [IPython Notebook](http://ipython.org/) emulates a Mathematica-style environment and is also similar to MATLAB cells.  Run `ipython notebook --pylab=inline` from your shell.  This causes graphics to appear in the document as opposed to in a new window and also starts up Python with Pylab, i.e. NumPy, SciPy, and Matplotlib
