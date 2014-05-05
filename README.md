@@ -13,7 +13,7 @@ This is the home of a project that seeks to leverage the vast array of tools ava
 * MPRAGE T1 mapping (Liu et al.)
 
 ### Requirements
-The chief requirements for this package beyond NumPy and SciPy are [theano](http://deeplearning.net/software/theano/), [PyAutoDiff](https://github.com/LowinData/pyautodiff), and [decorator](https://pypi.python.org/pypi/decorator/3.4.0).  
+The chief requirements for this package beyond NumPy and SciPy are [theano](http://deeplearning.net/software/theano/), [decorator](https://pypi.python.org/pypi/decorator/3.4.0), and [PyAutoDiff](https://github.com/LowinData/pyautodiff/tree/python2-ast).  The first two are available through PyPI but PyAutoDiff must be installed manually.
 
 
 ## Getting Started with Python
