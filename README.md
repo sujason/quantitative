@@ -1,13 +1,13 @@
 ## Welcome to Quantitative
 This is the home of a project that seeks to leverage the vast array of tools available in Python to create an open source framework for the analysis of quantitative MRI methods.  Users are free to use it as is but contributions are also  welcome.  With new pulse sequences, signal equations, and framework improvements, we can build a tool together that becomes a new standard for the quantitative imaging community.
-### Features:
+### Features
 * Calculation of the Cramér-Rao Lower Bound via [automatic differentiation](http://en.wikipedia.org/wiki/Automatic_differentiation)
 * Optimal experimental design using the Fisher information matrix and CRLB as a criterion
 
-### Future:
+### Future
 * Analysis of signals described by Bloch simulation and extended phase graph methods
 
-### Current applications:
+### Current applications
 * DESPOT1 (Deoni et al.)
 * DESPOT2-FM (Deoni et al.)
 * MPRAGE T1 mapping (Liu et al.)
@@ -29,12 +29,12 @@ Admin privileges are usually required.
 
 ### Learning
 There is of course a heavy inertia to learning a new programming language, but I believe the effort is well worth it especially if you'd like to move beyond Matlab.  I found the following resources immensely helpful:
-* [Dive Into Python](http://www.diveintopython.net)
-* [Python Scientific Lecture Notes](http://scipy-lectures.github.io/index.html)
-* [PyVideo](http://www.pyvideo.org) - an amazing resource that catalogs training sessions and talks from past PyCon events.  These typically cost thousands of dollars to attend in person.
-* [IPython introduction](http://pycon-2012-notes.readthedocs.org/en/latest/ipython.html)
-* [Matplotlib gallery](http://www.loria.fr/~rougier/coding/gallery/)
-* [PEP-8 Programming Style](http://www.python.org/dev/peps/pep-0008/)
+* [Dive Into Python](http://www.diveintopython.net) is a strong place to start.  The things learned here may not be immediately useful for scientific computing but they provide concepts and paradigms that will shape how you structure your future Python code.
+* [Python Scientific Lecture Notes](http://scipy-lectures.github.io/index.html) gives a thorough introduction to NumPy, SciPy, and matplotlib.  This is where Python becomes a force for scientific inquiry.  It will feel right at home for Matlab and R users.
+* [PyVideo](http://www.pyvideo.org) is an amazing resource that catalogs training sessions and talks from past PyCon events.  These typically cost thousands of dollars to attend in person.
+* [IPython introduction](http://pycon-2012-notes.readthedocs.org/en/latest/ipython.html) teaches how to get started with  IPython as a convenient way to code and visualize data in a single integrated interface.
+* [A matplotlib gallery](http://www.loria.fr/~rougier/coding/gallery/) on top of the [main one](http://matplotlib.org/gallery.html)
+* [PEP-8 Programming Style](http://www.python.org/dev/peps/pep-0008/) is a useful set of guidelines for Python coding style.  Python provides a lot of freedom as a language and as programmers we must use exercise it responsibly.  By following these conventions we improve code clarity and give a base understanding that everyone starts from.
 
 ### Programming
 * [SublimeText](http://www.sublimetext.com/) is a multi-platform text editor that has highlighting for many programming languages including Python.  It also happens to be written in Python.  Version 3 is the way to go.
