@@ -8,7 +8,7 @@ This is the home of a project that seeks to leverage the vast array of tools ava
 * Analysis of signals described by Bloch simulation and extended phase graph methods
 
 ### Current applications
-* DESPOT1 (Deoni et al.)
+* [DESPOT1 (Deoni et al.)](http://www.stanford.edu/~sujason/MR/ISMRM2014-PCVFAv3.pptx)
 * DESPOT2-FM (Deoni et al.)
 * MPRAGE T1 mapping (Liu et al.)
 
