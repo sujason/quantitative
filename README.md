@@ -1,5 +1,8 @@
 ## Welcome to Quantitative
 This is the home of a project that seeks to leverage the vast array of tools available in Python to create an open source framework for the analysis of quantitative MRI methods.  Users are free to use it as is but contributions are also  welcome.  With new pulse sequences, signal equations, and framework improvements, we can build a tool together that becomes a new standard for the quantitative imaging community.
+
+Please enjoy my [ISMRM2014 ePoster](http://www.stanford.edu/~sujason/MR/ISMRM2014-PCVFAv3.pptx) for an introduction to the Cramér-Rao Lower Bound, optimal experimental design, and its application to DESPOT1/2.
+
 ### Features
 * Calculation of the Cramér-Rao Lower Bound via [automatic differentiation](http://en.wikipedia.org/wiki/Automatic_differentiation)
 * Optimal experimental design using the Fisher information matrix and CRLB as a criterion
