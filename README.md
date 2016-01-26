@@ -21,7 +21,7 @@ The chief requirements for this package beyond NumPy and SciPy are [theano](http
 
 ## Getting Started with Python
 ### Installation
-The best way to install Python for scientific computing is with a pre-made environment or bundle of packages.  There are many competitors but two of the major players are: [Anaconda](https://store.continuum.io/cshop/anaconda/) and [Enthought Canopy](https://www.enthought.com/products/canopy/) (formerly Enthought Python Distribution).  These are both free.  Paid or academic licenses offer access to accelerated libraries or better support.  They help to assemble the most widely used open source community projects including NumPy, Matplotlib, SciPy, and IPython in a one-click install.  There are also sites that let you use Python through the web such as [Wakari](https://wakari.io/).
+The best way to install Python for scientific computing is with a pre-made environment or bundle of packages.  There are many competitors but two of the major players are: [Anaconda](https://store.continuum.io/cshop/anaconda/) and [Enthought Canopy](https://www.enthought.com/products/canopy/) (formerly Enthought Python Distribution).  These are both free.  Paid or academic licenses offer access to accelerated libraries or better support.  They help to assemble the most widely used open source community projects including NumPy, Matplotlib, SciPy, and IPython in a one-click install.  There are also sites that let you use Python through the web like [Wakari](https://wakari.io/).
 
 Most major Python packages are available from the central package index, [PyPI](https://pypi.python.org/pypi).  New packages can be pulled and installed from PyPI with the shell commands:
 * `easy_install <package name>`
